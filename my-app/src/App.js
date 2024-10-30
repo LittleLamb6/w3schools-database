@@ -70,7 +70,7 @@ function CategoryList() {
         className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
         onClick={() => setEditableCategoryId('new')}
       >
-        Add New Category
+        Add New Category from Alba yay
       </button>
       {editableCategoryId === 'new' && (
         <div className="mb-4 p-4 border rounded">
